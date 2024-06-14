@@ -46,6 +46,12 @@ public class Worker {
     public void setBaseSalary (Double baseSalary){
         this.baseSalary = baseSalary;
     }
+    public Department getDepartment(){
+        return department;
+    }
+    public void setDepartment(Department department){
+        this.department=department;
+    }
 
     public List<HourContract> getContracts() {
         return contracts;
